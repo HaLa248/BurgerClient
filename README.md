@@ -1,19 +1,17 @@
 <div align="center">
-<h1>FDPCLIENT</h1>
-<h3>A free mixin-based injection hacked-client for Minecraft using Minecraft Forge based on LiquidBounce.</h3>
-Website: <a href="https://fdpinfo.github.io">fdpinfo.github.io</a><br>
-Latest build: <a href="https://github.com/SkidderMC/FDPClient/actions/workflows/build.yml?query=event%3Apush">github-actions</a><br>
-Discord: <a href="https://dsc.gg/fdpdiscord">dsc.gg/fdpdiscord</a><br>
+<h1>Burger Client</h1>
+<h3>A free mixin-based injection hacked-client for Minecraft using Minecraft Forge based on ef dee pee.</h3>
+</br>
 </div>
 
-## How Do I Install FDP?
+## How Do I Install?
 [Click for instructions](docs/INSTALLING.md)
 
 ## The Staff
-[Click here to find out about the team](docs/TEAM.md)
+no
 
 ## Issues
-Found bugs or a missing features? You can let us know by opening an issue [here](https://github.com/SkidderMC/FDPClient/issues)!
+Found bugs or a missing features? You can let us know by opening an issue [here](https://github.com/HaLa248/BurgerClient/issues)!
 
 ## License
 This project is subject to the [GNU General Public License v3.0](LICENSE). This does only apply for source code located directly in this clean repository. During the development and compilation process, additional source code may be used to which we have obtained no rights. Such code is not covered by the GPL license.
@@ -36,4 +34,4 @@ Do the above and share your source code with everyone; just like we do!
 [Click for intructions](docs/WORKSPACE.md)
 
 ## Contributing
-[Click for information about Contributing to fdp](docs/NOTECONTRUBTIONS.md)
+[Click for information about Contributing to this stupid client](docs/NOTECONTRUBTIONS.md)
