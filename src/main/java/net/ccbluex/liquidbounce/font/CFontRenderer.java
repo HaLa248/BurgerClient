@@ -312,6 +312,7 @@ public class CFontRenderer extends CFont {
         boolean italic = false;
         boolean strikethrough = false;
         boolean underline = false;
+        setAntiAlias(false);
         char c = (char) (x2 * 2.0d);
         double y2 = (y - 3.0d) * 2.0d;
         if (1 != 0) {
@@ -426,6 +427,7 @@ public class CFontRenderer extends CFont {
         boolean underline = false;
         char c = (char) (x2 * 2.0d);
         double y2 = (y - 3.0d) * 2.0d;
+        setAntiAlias(false);
         if (1 != 0) {
             GL11.glPushMatrix();
             GlStateManager.scale(0.5d, 0.5d, 0.5d);
