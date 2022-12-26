@@ -39,11 +39,11 @@ object LiquidBounce {
 
     // Client information
 
-    const val CLIENT_NAME = "FDPClient"
+    const val CLIENT_NAME = "BurgerClient"
 
     var Darkmode = true
-    const val COLORED_NAME = "§7[§f!§7] §b§lFDPCLIENT §f» "
-    const val CLIENT_CREATOR = "CCBlueX, Zywl & SkidderMC TEAM"
+    const val COLORED_NAME = "§7[§f!§7] §b§lBurger §f» "
+    const val CLIENT_CREATOR = "CCBlueX, Zywl & your mom TEAM"
     const val CLIENT_WEBSITE = "fdpinfo.github.io"
     
     @JvmField
@@ -209,18 +209,7 @@ object LiquidBounce {
 
     private fun checkUpdate() {
         try {
-            val get = HttpUtils.get("https://api.github.com/repos/SkidderMC/FDPClient/commits/${gitInfo["git.branch"]}")
-
-            val jsonObj = JsonParser()
-                .parse(get).asJsonObject
-
-            latest = jsonObj.get("sha").asString.substring(0, 7)
-
-            if (latest != gitInfo["git.commit.id.abbrev"]) {
-                ClientUtils.logInfo("New version available: $latest")
-            } else {
-                ClientUtils.logInfo("No new version available")
-            }
+            latest = abcdefg
         } catch (t: Throwable) {
             ClientUtils.logError("Failed to check for updates.", t)
         }
