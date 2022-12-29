@@ -209,7 +209,7 @@ object LiquidBounce {
 
     private fun checkUpdate() {
         try {
-            latest = abcdefg
+            latest = "012345"
         } catch (t: Throwable) {
             ClientUtils.logError("Failed to check for updates.", t)
         }
